@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>mneme</groupId>
+        <artifactId>eXperiment</artifactId>
+        <version>0.0.1-M0-SNAPSHOT</version>
+    </parent>
+    <artifactId>storage</artifactId>
+
+    <name>Storage</name>
+    <description>infrastructure</description>
+    <url>http://animotron.org/</url>
+
+    <licenses>
+        <license>
+            <name>GNU Lesser General Public License, Version 3</name>
+            <url>http://www.gnu.org/licenses/lgpl.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+
+    <developers>
+        <developer>
+            <name>Dmitriy Shabanov</name>
+            <id>shabanovd</id>
+        </developer>
+    </developers>
+
+    <properties>
+        <mapdb.version>3.0.0-M3-SNAPSHOT</mapdb.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mapdb</groupId>
+            <artifactId>mapdb</artifactId>
+            <version>${mapdb.version}</version>
+        </dependency>
+    </dependencies>
+
+</project>
